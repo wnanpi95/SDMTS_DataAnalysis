@@ -181,13 +181,14 @@ CREATE TABLE static_info.trips
   block_id              text,
   shape_id              text,
   service_id            text,
+  trip_id               text,
   direction_name        text,
-  original_trip_id      text,
-  tail                  text
-)
+  original_trip_id      text
+);
+COPY static_info.trips FROM '/home/pi/Static_Info/trips.txt' DELIMITER ',' CSV HEADER;
 
 CREATE TABLE liveFeed 
-  trip_id               int,
+  trip_id               text,
   timestamp             int,
   latitude              real,
   longitude             real,
