@@ -1,7 +1,7 @@
 # Hard Coded Variables
 ##################################################################################################
 url = "https://realtime.sdmts.com/api/api/gtfs_realtime/vehicle-positions-for-agency/MTS.pb?key="
-key = "65855fcd-32a6-4ddc-8b70-ab58f6806e21"
+key = # PUT YOUR KEY HERE 
 link = url + key
 path = "/home/pi/SDMTS"
 
