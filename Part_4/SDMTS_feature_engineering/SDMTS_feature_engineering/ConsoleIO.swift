@@ -10,20 +10,21 @@ import Foundation
 
 class IO {
     
-    let dictionaryPath: NSString
+    let dictionaryPath: String
     
-    let inputFull: NSString
-    let inputShort: NSString
-    let outputFull: NSString
-    let outputShort: NSString
+    let inputFull: String
+    let inputShort: String
+    let outputFull: String
+    let outputShort: String
     
     init(dictionaryPath: NSString, inputFull: NSString, outputFull: NSString) {
-        self.dictionaryPath = dictionaryPath
+        self.dictionaryPath = dictionaryPath as String
         
-        self.inputFull = inputFull
-        self.inputShort = inputFull.lastPathComponent as NSString
+        self.inputFull = inputFull as String
+        self.inputShort = String(inputFull.lastPathComponent)
         
-        self.outputFull = outputFull
-        self.outputShort = outputFull.lastPathComponent as NSString
+        self.outputFull = outputFull as String
+        self.outputShort = String(outputFull.lastPathComponent)
     }
+    
 }

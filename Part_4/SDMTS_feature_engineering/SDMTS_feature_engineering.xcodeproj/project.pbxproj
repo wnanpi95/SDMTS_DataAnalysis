@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A42DA3091F1FD46E00B54902 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA3081F1FD46E00B54902 /* main.swift */; };
 		A42DA3101F1FDA0B00B54902 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */; };
+		A42DA3341F1FE64E00B54902 /* StaticDictionaryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA3331F1FE64E00B54902 /* StaticDictionaryCollection.swift */; };
+		A42DA3371F1FEA3300B54902 /* Subroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA3361F1FEA3300B54902 /* Subroutine.swift */; };
+		A42DA3391F1FF2E400B54902 /* BusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA3381F1FF2E400B54902 /* BusEntity.swift */; };
+		A42DA33B1F1FF30200B54902 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA33A1F1FF30200B54902 /* Primitives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		A42DA3051F1FD46E00B54902 /* SDMTS_feature_engineering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDMTS_feature_engineering; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DA3081F1FD46E00B54902 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		A42DA3331F1FE64E00B54902 /* StaticDictionaryCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StaticDictionaryCollection.swift; path = ../StaticDictionaryCollection.swift; sourceTree = "<group>"; };
+		A42DA3361F1FEA3300B54902 /* Subroutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Subroutine.swift; path = ../Subroutine.swift; sourceTree = "<group>"; };
+		A42DA3381F1FF2E400B54902 /* BusEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusEntity.swift; sourceTree = "<group>"; };
+		A42DA33A1F1FF30200B54902 /* Primitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitives.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,12 @@
 		A42DA3071F1FD46E00B54902 /* SDMTS_feature_engineering */ = {
 			isa = PBXGroup;
 			children = (
+				A42DA3361F1FEA3300B54902 /* Subroutine.swift */,
+				A42DA3331F1FE64E00B54902 /* StaticDictionaryCollection.swift */,
 				A42DA3081F1FD46E00B54902 /* main.swift */,
 				A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */,
+				A42DA3381F1FF2E400B54902 /* BusEntity.swift */,
+				A42DA33A1F1FF30200B54902 /* Primitives.swift */,
 			);
 			path = SDMTS_feature_engineering;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42DA3091F1FD46E00B54902 /* main.swift in Sources */,
+				A42DA33B1F1FF30200B54902 /* Primitives.swift in Sources */,
 				A42DA3101F1FDA0B00B54902 /* ConsoleIO.swift in Sources */,
+				A42DA3341F1FE64E00B54902 /* StaticDictionaryCollection.swift in Sources */,
+				A42DA3371F1FEA3300B54902 /* Subroutine.swift in Sources */,
+				A42DA3391F1FF2E400B54902 /* BusEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
