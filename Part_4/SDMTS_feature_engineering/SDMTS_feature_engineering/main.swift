@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let myIO = IO(dictionaryPath: CommandLine.arguments[1] as NSString,
+              inputFull:  CommandLine.arguments[2] as NSString,
+              outputFull: CommandLine.arguments[3] as NSString)
+
+
 

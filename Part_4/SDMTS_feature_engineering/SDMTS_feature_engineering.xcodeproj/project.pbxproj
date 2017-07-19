@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A42DA3091F1FD46E00B54902 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA3081F1FD46E00B54902 /* main.swift */; };
+		A42DA3101F1FDA0B00B54902 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A42DA3051F1FD46E00B54902 /* SDMTS_feature_engineering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDMTS_feature_engineering; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DA3081F1FD46E00B54902 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A42DA3081F1FD46E00B54902 /* main.swift */,
+				A42DA30F1F1FDA0B00B54902 /* ConsoleIO.swift */,
 			);
 			path = SDMTS_feature_engineering;
 			sourceTree = "<group>";
@@ -72,6 +75,7 @@
 				A42DA3011F1FD46E00B54902 /* Sources */,
 				A42DA3021F1FD46E00B54902 /* Frameworks */,
 				A42DA3031F1FD46E00B54902 /* CopyFiles */,
+				A42DA3111F1FDC8000B54902 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,12 +120,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A42DA3111F1FDC8000B54902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A42DA3011F1FD46E00B54902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A42DA3091F1FD46E00B54902 /* main.swift in Sources */,
+				A42DA3101F1FDA0B00B54902 /* ConsoleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +270,7 @@
 				A42DA30E1F1FD46E00B54902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

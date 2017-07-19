@@ -61,6 +61,20 @@
             ReferencedContainer = "container:SDMTS_feature_engineering.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/willan/Desktop/SDMTS/SDMTS_DataAnalysis/google_transit/"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Users/willan/Desktop/SDMTS/SDMTS_DataAnalysis/Part_4/2017-07-05.csv"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Users/willan/Desktop/SDMTS/SDMTS_DataAnalysis/Part_4/2017-07-05-appended.csv"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
