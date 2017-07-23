@@ -15,9 +15,14 @@ let myIO = IO(dictionaryPath: CommandLine.arguments[1] as NSString,
               outputFull: CommandLine.arguments[3] as NSString)
 
 let myStaticDict = StaticDictionaryCollection(resourcePath: myIO.dictionaryPath)
+myStaticDict.trips()
+myStaticDict.shapes()
+myStaticDict.place_patterns()
 let myBusContainer = BusEntityContainer(filePath: myIO.inputFull, resource: myStaticDict)
 myBusContainer.process(resource: myStaticDict)
 myBusContainer.writeOutput(output: myIO.outputFull)
 
+let myPlaceVertices = placeVertexGenerator(resourcePath: myIO.dictionaryPath)
+let myPlaceEdges = placeEdgeGenerator(resource: myStaticDict)
 
 

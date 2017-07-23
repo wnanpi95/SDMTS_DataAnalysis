@@ -48,3 +48,16 @@ func magnitude(position: Position) -> Float {
     return sqrt(position.latitude*position.latitude
         + position.longitude*position.longitude)
 }
+
+struct RouteDirection: Hashable {
+    let route: String
+    let direction: String
+    
+    var hashValue: Int {
+        return route.hashValue
+    }
+    
+    static func == (lhs: RouteDirection, rhs: RouteDirection) -> Bool {
+        return lhs.route == rhs.route && lhs.direction == rhs.direction
+    }
+}

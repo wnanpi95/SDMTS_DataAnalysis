@@ -18,9 +18,9 @@ class BusEntity {
     
     var shape_id: String? = nil
     
-    var shapeAdj: Shape? = nil
-    var shapeAnte: Shape? = nil
-    var shapePost: Shape? = nil
+    var shapeAdj: Shape? = nil                  // Closest shape vertex
+    var shapeAnte: Shape? = nil                 // Vertex before the closest
+    var shapePost: Shape? = nil                 // Vertex after the closest
     
     var dist_travelled: Double = Double.nan
     var velocity: Double = Double.nan
@@ -151,8 +151,8 @@ class BusEntity {
     }
     
     func process(resource: StaticDictionaryCollection) {
-        getShape_id(resource: resource.trip_idTOshape_id)
-        getShapes(resource: resource.shape_idTOshapes_array)
+        getShape_id(resource: resource.trip_idTOshape_id!)
+        getShapes(resource: resource.shape_idTOshapes_array!)
         getDist_traveled()
     }
 }
